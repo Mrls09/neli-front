@@ -266,7 +266,7 @@ export const LoginScreen = () => {
           {!success && !failure && expanded && (
             <React.Fragment>
               <div className="logo">
-                <img className="loginMpgiaLogo" src={require('../../utils/img/mpgialogo.png')} alt="" />
+                {/* <img className="loginMpgiaLogo" src={require('../../utils/img/mpgialogo.png')} alt="" /> */}
                 <div class="progress-bar">
                   <div class="progress"></div>
                 </div>

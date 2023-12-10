@@ -6,8 +6,8 @@ import AxiosClient from "../../shared/plugins/axios";
 import Alert from "../../shared/plugins/alerts";
 import FeatherIcon from "feather-icons-react/build/FeatherIcon";
 import '../../utils/styles/DataTable.css'
-import { AddUserForm } from './SuperForms/AddUserForm';
-import { EditUserForm } from './SuperForms/EditUserForm';
+// import { AddUserForm } from './SuperForms/AddUserForm';
+// import { EditUserForm } from './SuperForms/EditUserForm';
 
 
 
@@ -187,8 +187,8 @@ export default function Users({option}) {
             </div>
 
 
-            <AddUserForm option={option} isOpen={isOpen} cargarDatos={cargarDatos} onClose={() => setIsOpen(false)} />
-            <EditUserForm option={option} isOpen={isEditing} cargarDatos={cargarDatos} onClose={() => setIsEditting(false)} objeto={selectedObject}/>
+            {/* <AddUserForm option={option} isOpen={isOpen} cargarDatos={cargarDatos} onClose={() => setIsOpen(false)} />
+            <EditUserForm option={option} isOpen={isEditing} cargarDatos={cargarDatos} onClose={() => setIsEditting(false)} objeto={selectedObject}/> */}
         </>
 
     )
